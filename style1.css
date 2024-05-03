@@ -1,0 +1,66 @@
+/* CSS file: style.css */
+
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.stopwatch-container {
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Display styles */
+.display {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+/* Button styles */
+.buttons {
+  margin-bottom: 20px;
+}
+
+button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Lap times list styles */
+.lap-times {
+  text-align: left;
+}
+
+.lap-times h3 {
+  margin-bottom: 5px;
+}
+
+ul {
+  list-style-type: decimal;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  padding: 5px 0;
+}
